@@ -15,3 +15,11 @@ while current_height > 1:
     bounces += 1
 
 print('Number of bounces: ', bounces) 
+
+# simpler way
+height = 100
+bounce = 1
+while bounce <= 10:
+    height = height * (3/5)
+    print(bounce, round(height, 4))
+    bounce += 1
